@@ -1,0 +1,189 @@
+
+.box{
+
+    color:black;
+    width: 200px;
+    /* border: 1px solid green; */
+    border: 2px solid black;
+    /* txt k center a neyar jonno text-align */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-top: 40px;
+    margin-left: 250px; */
+
+    margin: 100px 300px;
+    
+
+} 
+
+
+.name
+{
+    color: brown;
+    font-style: italic;
+    width: 200px;
+    text-align: center;
+    
+    border: 3px dotted green;
+    padding: 40px;
+    padding-left: 60px;
+    margin: 40px 100px;
+}
+
+
+.school
+{
+    display: inline;
+    color: black;
+}
+.clg
+{
+    display: inline;
+    color: rgb(0, 128, 0);
+}
+
+
+.lorem
+{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #800000;
+    width: 50%;
+    margin: auto;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.inspiration
+{
+    color:green;
+    font-size: 40px;
+    width: auto;
+    margin: auto;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box-all
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.Box1
+{
+    border: 2px solid black;
+    position: relative;
+    left: 30px;
+    background-color: green;
+  
+}
+.Box2
+{   
+    border: 2px solid red;
+
+}
+.Box3
+{
+    border: 2px solid green;
+}
+
+.potaka
+{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute; 
+    left: 65px;
+    top: 60px;
+
+}
+
+.son 
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid blue;
+
+}
+
+.daughter
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid green;
+
+}
+
+.son2
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+.daughter2
+{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+
+
+.father
+{
+    margin: 20px;
+    /* display flex dile div gula inline hoye jai */
+    display:flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content:space-evenly ; */
+    width: 100%;
+    
+    /* full screen ar height ar jonno 100vh dite hoi */
+    height: 100vh;
+    border: 2px solid red;
+
+    /* flex-wrap ar sahajje amra div gula k space hisave dekte pari */
+    flex-wrap:wrap ;
+
+    /* maj khane deyar jonno */
+    align-items: center;
+
+}
+
+
+.hello
+{
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+    margin:  auto;
+    background-image: url(img/bule_nil.jpg),linear-gradient(45deg,red,blue);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+button
+{
+    width: 300px;
+    padding: 30px;
+    border: 2px solid white;
+    
+    
+    background: linear-gradient(60deg,red,green);
+}

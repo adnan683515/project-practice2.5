@@ -1,0 +1,356 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav
+{
+    color: white;
+    height: 100px;
+}
+.img-logo
+{
+    width: 50px;
+}
+
+.nav-container
+{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+
+.nav-title
+{
+    display: flex;
+    gap: 15px;
+}
+
+li{
+    list-style: none;
+    
+}
+
+.menu:hover
+{
+    color: brown;
+    cursor: pointer;
+}
+
+.img-section
+{
+    height: 450px;
+}
+
+.section-container
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: wheat;
+    
+}
+
+.section-text
+{
+    padding-top: 70px;
+}
+
+.text
+{
+    width: 170px;
+    padding-bottom: 5px;
+}
+
+.sefty-text
+{
+    padding-bottom: 5px;
+}
+
+.btn
+{
+    background-color: orange;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+header
+{
+    background-image: url(./css/img/Div\ [banner].png);
+}
+
+.box-1
+{
+    width: 100px;
+    background-color: white;
+  
+}
+
+.tala
+{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.logo-container
+{
+    background-color:white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.section-box-2
+{
+    border: rgb(64, 239, 110) dotted;
+    width: 20%;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-2-container
+{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.section-2-container-2
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.services
+{
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+
+
+.sera-pic
+{
+    height: 50vh;
+
+}
+
+.sera-pic-text
+{
+    text-align: center;
+    padding-top: 50px;
+    width: 47vh ;
+    /* padding-top: 9px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 9px;
+}
+
+
+.sera-text-pic
+{
+    display: flex;
+    padding-top: 20px;
+}
+
+.phone
+{
+    width: 40px;
+    padding-top: 10px;
+    /* padding-left: -40px; */
+    margin-left: -190px;
+}
+
+.phone-text
+{
+    margin-left: 100px;
+    margin-top: -40px;
+}
+
+.number
+{
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+
+.sera-text-pic
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sera-text-pic
+{
+    margin-top: 30px;
+}
+
+
+.input-box
+{
+    height: 30px;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.footer-box-1
+{
+    background-color: rgb(3, 0, 0);
+    width:40vh;
+    /* margin-top: 70px; */
+    color: whitesmoke;
+
+}
+
+
+.footer-logo
+{
+    width: 40px;
+}
+
+.footer-logo-text
+{
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+
+.footer-section
+{
+    background-color: black;
+}
+
+.lorem
+{
+    padding-top: 10px;
+
+}
+
+.JOb
+{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.input-box
+{
+    background-color: gray;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.learn
+{
+    text-align: center;
+}
+
+.logo-footer
+{
+    margin-left: 40px;
+}
+
+.lorem-1
+{
+    margin-left: 20px;
+}
+
+.footer-section
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+@media only screen and (min-width:400px) and (max-width:767px)
+{
+   body{
+    background-color: red;
+   }
+   .section-2-container
+   {
+     display: flex;
+     flex-direction: column;
+
+     width: 90vh;
+     margin-left: 40%;
+     
+   }
+
+   .section-2-container-2
+   {
+     display: flex;
+     flex-direction: column;
+
+     width: 90vh;
+     margin-left: 40%;
+     
+   }
+   .nav-container
+   {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+   }
+   .section-container
+   {
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .section-text
+   {
+    margin-bottom: 50px;
+   }
+
+   .sera-text-pic
+   {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+   }
+
+   .footer-section
+   {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-bottom: 50px;
+   }
+
+   .footer-box-1
+   {
+    margin: auto;
+    padding-top: 50px;
+   }
+
+  
+
+ 
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px)
+{
+    body 
+    {
+        background-color: blue;
+    }
+}

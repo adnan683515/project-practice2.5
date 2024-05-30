@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.menu-container
+{
+    background-color: rgb(58, 56, 56);
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+.img-logo
+{
+    width: 120px;
+
+}
+
+
+.menu 
+{
+    display: flex;
+    gap: 20px;
+}
+
+
+.item
+{
+    font-size: 20px;
+    cursor: pointer;
+    color:  wheat;
+
+}
+.item:hover
+{
+    color: red;
+
+}
+
+
+
+.banar-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-color: black;
+    color:  white;
+    background-image: url(./img/back-ground-img.jpg)  , linear-gradient(60deg,black, rgb(98, 101, 98));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banar-img
+{
+    width: 300px;
+    height: 300px;
+}
+
+.better
+{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.sec-para
+{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-section
+{
+    border: none;
+    padding: 10px 22px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.about-title 
+{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.about-container
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+
+.about-text
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.loren-text
+{
+    margin-bottom: 20px;
+}
+
+.about-button
+{
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.section-service
+{
+    background-image: url(img/servie-back.avif),linear-gradient(45deg,red,gray);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.service-tilte
+{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.servie-web
+{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.service-pic-1
+{
+    width: 100px;
+    margin-bottom: 16px;
+}
+
+
+.web
+{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.service-card
+{
+    width: 300px;
+    height: 400px;
+    box-shadow: 4px 4px 8px rgb(168, 154, 154);
+    text-align: center;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: black;
+}
+
+
+.color-btn
+{
+    background-color: gray;
+}
+
+
+
+.service-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+
+footer
+{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    line-height: 20px;
+}
+
+.footer-container
+{
+    width: 75%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-logo
+{
+    width: 140px;
+    padding: 5px;
+}
+
+.logo-text
+{
+    width: 20%;
+}
+
+
+.line
+{
+    border-top: 2px solid floralwhite;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
